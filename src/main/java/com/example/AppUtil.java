@@ -1,10 +1,18 @@
 package com.example;
 
+import java.util.*;
 public class AppUtil {
 
-    boolean isJavaFun = true;
-        boolean isFishTasty = false;
-        System.out.println("Is Java fun? " + isJavaFun);
-        System.out.println("Is fish tasty? " + isFishTasty);
+   // Using ArrayList
+        List<String> names = new ArrayList<>();
+        names.add("Alice");
+        names.add("Bob");
+        names.add("Charlie");
 
+        // Using Collections utility class
+        Collections.sort(names);
+        System.out.println("Sorted Names: " + names);
+
+        // Simulated user input
+        String userName = "User";
 }
