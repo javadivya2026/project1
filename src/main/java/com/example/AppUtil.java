@@ -15,6 +15,4 @@ public class AppUtil {
 
         // Simulated user input
         String userName = "User";
-        System.out.println("Hello, " + userName + "!");
-
 }
